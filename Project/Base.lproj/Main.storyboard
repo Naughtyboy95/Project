@@ -1,26 +1,132 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="LFL-wa-P1R">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--First Scene-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" title="First Scene" id="uZK-0E-P0s">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="MGp-RX-obc">
+                            <connections>
+                                <segue destination="5Qe-dE-1wf" kind="show" id="HMw-Qu-l3d"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-1778" y="-2260"/>
+        </scene>
+        <!--Second Scene-->
+        <scene sceneID="SoH-J1-fvr">
+            <objects>
+                <viewController id="5Qe-dE-1wf" customClass="SecondViewController" customModule="Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MJE-LU-fQj"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZhV-4B-8q4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bDX-mj-gBy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gbi-or-OIO">
+                                <rect key="frame" x="-2" y="212" width="326" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Navigate to the Third Scene using Modal Segue"/>
+                                <connections>
+                                    <segue destination="oFV-v7-Ayf" kind="presentation" modalTransitionStyle="coverVertical" id="5Rx-ly-Fur"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Second Scene" id="f9e-cJ-mY8">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="44S-Xz-hqQ">
+                            <connections>
+                                <segue destination="oFV-v7-Ayf" kind="show" id="mWI-mS-kZy"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lPw-ak-1lw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1076" y="-2260"/>
+        </scene>
+        <!--Third Scene-->
+        <scene sceneID="5iC-XB-cJ9">
+            <objects>
+                <viewController id="oFV-v7-Ayf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="q03-mJ-qPv"/>
+                        <viewControllerLayoutGuide type="bottom" id="DyO-YV-gHf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1dD-U7-eAp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2zF-3h-dGi">
+                                <rect key="frame" x="68" y="131" width="185" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Navigate to the First Scene"/>
+                                <connections>
+                                    <segue destination="u1R-DS-D3a" kind="unwind" unwindAction="navigatateToTheFirstSceneWithSender:" id="29F-37-tjA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0W8-ua-I7a">
+                                <rect key="frame" x="57" y="284" width="207" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Navigate to the Second Scene"/>
+                                <connections>
+                                    <segue destination="u1R-DS-D3a" kind="unwind" unwindAction="navigateToTheSecondSceneWithSender:" id="6Tp-y4-czV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Third Scene" id="BZf-VW-Fo7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FRQ-An-2n1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="u1R-DS-D3a" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="-208" y="-2260"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="aEY-7X-Rvc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LFL-wa-P1R" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Fgy-XT-7RT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="x8I-db-XWz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ch0-oM-nbi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2484" y="-2259"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="mWI-mS-kZy"/>
+    </inferredMetricsTieBreakers>
 </document>
