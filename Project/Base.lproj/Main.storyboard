@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="LFL-wa-P1R">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="r8l-EH-CrN">
     <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -20,59 +20,67 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="First Scene" id="uZK-0E-P0s">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="MGp-RX-obc">
-                            <connections>
-                                <segue destination="5Qe-dE-1wf" kind="show" id="HMw-Qu-l3d"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1778" y="-2260"/>
-        </scene>
-        <!--Second Scene-->
-        <scene sceneID="SoH-J1-fvr">
-            <objects>
-                <viewController id="5Qe-dE-1wf" customClass="SecondViewController" customModule="Project" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="MJE-LU-fQj"/>
-                        <viewControllerLayoutGuide type="bottom" id="ZhV-4B-8q4"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="bDX-mj-gBy">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gbi-or-OIO">
-                                <rect key="frame" x="-2" y="212" width="326" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOc-6A-Brl">
+                                <rect key="frame" x="125" y="101" width="70" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Navigate to the Third Scene using Modal Segue"/>
+                                <state key="normal" title="Free Book"/>
                                 <connections>
-                                    <segue destination="oFV-v7-Ayf" kind="presentation" modalTransitionStyle="coverVertical" id="5Rx-ly-Fur"/>
+                                    <segue destination="F6w-CE-lsq" kind="unwind" unwindAction="navigateToTheSecondSceneWithSender:" id="mJ2-ee-fhx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7IX-Wx-iqj">
+                                <rect key="frame" x="133" y="334" width="55" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Contact"/>
+                                <connections>
+                                    <segue destination="F6w-CE-lsq" kind="unwind" unwindAction="navigateToTheFourthSceneWithSender:" id="Oim-Ff-OEb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlL-ez-LhZ">
+                                <rect key="frame" x="126" y="210" width="69" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Paid Book"/>
+                                <connections>
+                                    <segue destination="F6w-CE-lsq" kind="unwind" unwindAction="navigateToTheThirdSceneWithSender:" id="mGK-I6-Vf6"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Second Scene" id="f9e-cJ-mY8">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="44S-Xz-hqQ">
-                            <connections>
-                                <segue destination="oFV-v7-Ayf" kind="show" id="mWI-mS-kZy"/>
-                            </connections>
-                        </barButtonItem>
+                    <tabBarItem key="tabBarItem" title="Menu" id="28J-of-x71"/>
+                    <navigationItem key="navigationItem" title="First Scene" id="uZK-0E-P0s">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="MGp-RX-obc"/>
                     </navigationItem>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lPw-ak-1lw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="F6w-CE-lsq" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-1076" y="-2260"/>
+            <point key="canvasLocation" x="-1564" y="-2260"/>
+        </scene>
+        <!--Free Book-->
+        <scene sceneID="hWL-wd-4ZY">
+            <objects>
+                <viewController id="AAG-py-dfz" customClass="SecondViewController" customModule="Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eA3-ga-XV6"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fV-mi-THQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GpO-Yt-Xzk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Free Book" id="AcN-Fh-Yqg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wfQ-ch-aQ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-780" y="-2264"/>
         </scene>
         <!--Third Scene-->
         <scene sceneID="5iC-XB-cJ9">
             <objects>
-                <viewController id="oFV-v7-Ayf" sceneMemberID="viewController">
+                <viewController id="oFV-v7-Ayf" customClass="ThirdViewController" customModule="Project" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="q03-mJ-qPv"/>
                         <viewControllerLayoutGuide type="bottom" id="DyO-YV-gHf"/>
@@ -80,53 +88,117 @@
                     <view key="view" contentMode="scaleToFill" id="1dD-U7-eAp">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Paid Book" id="9IN-mB-n50"/>
+                    <navigationItem key="navigationItem" title="Third Scene" id="BZf-VW-Fo7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FRQ-An-2n1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-84" y="-2265"/>
+        </scene>
+        <!--Contact-->
+        <scene sceneID="CwY-dY-8fi">
+            <objects>
+                <viewController id="yP9-T5-GfW" customClass="FourthViewController" customModule="Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="deB-QZ-Ljg"/>
+                        <viewControllerLayoutGuide type="bottom" id="AMZ-W7-xrl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PAl-AB-kX5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2zF-3h-dGi">
-                                <rect key="frame" x="68" y="131" width="185" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Please type your name" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YSe-So-i5F">
+                                <rect key="frame" x="100" y="20" width="199" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Navigate to the First Scene"/>
-                                <connections>
-                                    <segue destination="u1R-DS-D3a" kind="unwind" unwindAction="navigatateToTheFirstSceneWithSender:" id="29F-37-tjA"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0W8-ua-I7a">
-                                <rect key="frame" x="57" y="284" width="207" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Please type your phone number" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yRR-9j-EtF">
+                                <rect key="frame" x="100" y="77" width="199" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Navigate to the Second Scene"/>
-                                <connections>
-                                    <segue destination="u1R-DS-D3a" kind="unwind" unwindAction="navigateToTheSecondSceneWithSender:" id="6Tp-y4-czV"/>
-                                </connections>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Please type your email" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qdl-er-ba9">
+                                <rect key="frame" x="100" y="133" width="204" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Please type your comment" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Chj-C3-pS5">
+                                <rect key="frame" x="100" y="187" width="199" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4c4-Xm-HN4">
+                                <rect key="frame" x="16" y="23" width="45" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y5y-4y-8pS">
+                                <rect key="frame" x="16" y="77" width="49" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79t-dy-mpY">
+                                <rect key="frame" x="16" y="138" width="41" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Comment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTq-0Z-EKd">
+                                <rect key="frame" x="17" y="192" width="75" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dzv-M9-tJy">
+                                <rect key="frame" x="136" y="357" width="49" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Submit"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Third Scene" id="BZf-VW-Fo7"/>
+                    <tabBarItem key="tabBarItem" title="Contact" id="hlZ-Dw-VGI"/>
+                    <navigationItem key="navigationItem" id="dXu-YS-Jh0"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FRQ-An-2n1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="u1R-DS-D3a" userLabel="Exit" sceneMemberID="exit"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tpS-mU-Zr4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-208" y="-2260"/>
+            <point key="canvasLocation" x="637.5" y="-2260"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="aEY-7X-Rvc">
+        <!--Tab Bar Controller-->
+        <scene sceneID="ebp-XO-KB6">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LFL-wa-P1R" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="r8l-EH-CrN" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Fgy-XT-7RT">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="e9p-ej-cJS">
                         <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="x8I-db-XWz"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="fce-N6-Yd7"/>
+                        <segue destination="oFV-v7-Ayf" kind="relationship" relationship="viewControllers" id="x1c-rH-vZq"/>
+                        <segue destination="yP9-T5-GfW" kind="relationship" relationship="viewControllers" id="Eoc-kM-btC"/>
+                        <segue destination="AAG-py-dfz" kind="relationship" relationship="viewControllers" id="fWe-by-IKL"/>
                     </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ch0-oM-nbi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CWd-d4-TlL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2484" y="-2259"/>
+            <point key="canvasLocation" x="-2259" y="-2260"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="mWI-mS-kZy"/>
-    </inferredMetricsTieBreakers>
 </document>
