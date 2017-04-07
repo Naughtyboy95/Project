@@ -1,19 +1,19 @@
 //
-//  ThirdViewController.swift
+//  SecondViewController.swift
 //  Project
 //
-//  Created by DUC PHAM on 6/04/2017.
+//  Created by DUC PHAM on 7/04/2017.
 //  Copyright © 2017 DUC PHAM. All rights reserved.
 //
 
 import UIKit
 
-class ThirdViewController: UIViewController, UITableViewDataSource {
+class SecondViewController: UIViewController, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
     
-    let cellID = "CellID"
-    
+        let cellID = "CellID"
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -44,7 +44,7 @@ class ThirdViewController: UIViewController, UITableViewDataSource {
         return cell;
     }
     
-    @IBAction func navigatateToTheThirdScene(sender: UIStoryboardSegue)
+    @IBAction func navigatateToTheSecondScene(sender: UIStoryboardSegue)
     {
         
     }

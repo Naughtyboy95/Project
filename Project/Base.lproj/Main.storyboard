@@ -26,7 +26,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Free Book"/>
                                 <connections>
-                                    <segue destination="F6w-CE-lsq" kind="unwind" unwindAction="navigateToTheSecondSceneWithSender:" id="mJ2-ee-fhx"/>
+                                    <segue destination="F6w-CE-lsq" kind="unwind" unwindAction="navigatateToTheSecondSceneWithSender:" id="KPw-5G-ikw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7IX-Wx-iqj">
@@ -37,12 +37,12 @@
                                     <segue destination="F6w-CE-lsq" kind="unwind" unwindAction="navigateToTheFourthSceneWithSender:" id="Oim-Ff-OEb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlL-ez-LhZ">
-                                <rect key="frame" x="126" y="210" width="69" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ekq-ev-850">
+                                <rect key="frame" x="126" y="225" width="69" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Paid Book"/>
                                 <connections>
-                                    <segue destination="F6w-CE-lsq" kind="unwind" unwindAction="navigateToTheThirdSceneWithSender:" id="mGK-I6-Vf6"/>
+                                    <segue destination="F6w-CE-lsq" kind="unwind" unwindAction="navigatateToTheThirdSceneWithSender:" id="O82-Uy-ze5"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -59,23 +59,43 @@
             <point key="canvasLocation" x="-1564" y="-2260"/>
         </scene>
         <!--Free Book-->
-        <scene sceneID="hWL-wd-4ZY">
+        <scene sceneID="rWj-Yr-Sq1">
             <objects>
-                <viewController id="AAG-py-dfz" customClass="SecondViewController" customModule="Project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="K8u-DC-GSc" customClass="SecondViewController" customModule="Project" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="eA3-ga-XV6"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fV-mi-THQ"/>
+                        <viewControllerLayoutGuide type="top" id="Hib-Hk-Tku"/>
+                        <viewControllerLayoutGuide type="bottom" id="gO7-6Q-GdZ"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="GpO-Yt-Xzk">
+                    <view key="view" contentMode="scaleToFill" id="i3I-R0-yac">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="X3Y-rz-jhu">
+                                <rect key="frame" x="0.0" y="-7" width="320" height="487"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellID" id="Ruz-ux-pbi">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ruz-ux-pbi" id="jjF-hG-XfH">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Free Book" id="AcN-Fh-Yqg"/>
+                    <tabBarItem key="tabBarItem" title="Free Book" id="ClY-SE-BHW"/>
+                    <connections>
+                        <outlet property="tableView" destination="X3Y-rz-jhu" id="DM2-JU-yqQ"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wfQ-ch-aQ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DXG-67-ZO3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-780" y="-2264"/>
+            <point key="canvasLocation" x="-817.5" y="-2265"/>
         </scene>
         <!--Third Scene-->
         <scene sceneID="5iC-XB-cJ9">
@@ -88,14 +108,34 @@
                     <view key="view" contentMode="scaleToFill" id="1dD-U7-eAp">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="SoF-Km-j70">
+                                <rect key="frame" x="0.0" y="-6" width="320" height="437"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellID" id="NQO-zd-B4U">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NQO-zd-B4U" id="kCl-Ri-pxi">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Paid Book" id="9IN-mB-n50"/>
                     <navigationItem key="navigationItem" title="Third Scene" id="BZf-VW-Fo7"/>
+                    <connections>
+                        <outlet property="tableView" destination="SoF-Km-j70" id="uff-mp-ohF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FRQ-An-2n1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-84" y="-2265"/>
+            <point key="canvasLocation" x="-84.375" y="-2265"/>
         </scene>
         <!--Contact-->
         <scene sceneID="CwY-dY-8fi">
@@ -186,6 +226,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="r8l-EH-CrN" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="e9p-ej-cJS">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
@@ -193,7 +234,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="fce-N6-Yd7"/>
                         <segue destination="oFV-v7-Ayf" kind="relationship" relationship="viewControllers" id="x1c-rH-vZq"/>
                         <segue destination="yP9-T5-GfW" kind="relationship" relationship="viewControllers" id="Eoc-kM-btC"/>
-                        <segue destination="AAG-py-dfz" kind="relationship" relationship="viewControllers" id="fWe-by-IKL"/>
+                        <segue destination="K8u-DC-GSc" kind="relationship" relationship="viewControllers" id="miM-iL-7sU"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CWd-d4-TlL" userLabel="First Responder" sceneMemberID="firstResponder"/>
