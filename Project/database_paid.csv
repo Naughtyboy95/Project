@@ -1,0 +1,3 @@
+bookId,bookTitle,bookUrl,bookCoverUrl
+1,abc,paid/1/book1.pdf,paid/1/cover1.png
+2,bcd,paid/2/book2.pdf,paid/2/cover2.png

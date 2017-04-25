@@ -8,8 +8,8 @@
 
 import UIKit
 
-class SecondViewController: UIViewController, UITableViewDataSource {
-    
+class SecondViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    var myCSVContents = Array<Dictionary<String, String>>()
     @IBOutlet weak var tableView: UITableView!
     
         let cellID = "CellID"
@@ -17,7 +17,20 @@ class SecondViewController: UIViewController, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tableView.dataSource = self
+        
+        CSVParser.runFunctionOnRowsFromFile(theColumnNames: ["bookId", "bookTitle", "bookUrl","bookCoverUrl"], withFileName: "database_free", withFunction: {
+            
+            (aRow:Dictionary<String, String>) in
+            
+            myCSVContents.append(aRow)
+            
+        })
+                tableView.dataSource = self
+        
+        self.tableView.delegate = self
+        //DispatchQueue.main.async{
+           // self.tableView.reloadData()
+        //}
     }
     
     override func didReceiveMemoryWarning() {
@@ -29,20 +42,57 @@ class SecondViewController: UIViewController, UITableViewDataSource {
         return 1
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        tableView.deselectRow(at: indexPath, animated: true)
+        
+        //let row = myCSVContents[indexPath.row] as Dictionary<String,String>
+        
+        //let readController = self.storyboard!.instantiateViewController(withIdentifier: "readbookController") as! readBookViewController
+        
+        //readController.BookUrl = row["bookUrl"]
+        //readController.BookTitle = row["bookTitle"]
+        
+        //self.navigationController?.pushViewController(readController, animated: true)
+        
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section:Int) -> Int {
-        return 5
+        return myCSVContents.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: cellID, for: indexPath as IndexPath)
         
-        cell.textLabel!.text = String (format:"Section %ld, Row %ld",
-                                       indexPath.section + 1,
-                                       indexPath.row + 1)
+        var row = myCSVContents[indexPath.row] as Dictionary<String,String>
+        let title = row["bookTitle"]
+        cell.textLabel!.text = String (format:"Book %@",
+                                       title!)
         
         return cell;
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "segueReader" {
+            // Setup new view controller
+            let selectedIndex = self.tableView.indexPath(for: sender as! UITableViewCell)
+            let globalVar = selectedIndex!.row
+            let row = myCSVContents[globalVar] as Dictionary<String,String>
+            
+            //let readController = self.storyboard!.instantiateViewController(withIdentifier: "readbookController") as! readBookViewController
+            
+            //readController.BookUrl = row["bookUrl"]
+            //readController.BookTitle = row["bookTitle"]
+            
+            
+            if let des = segue.destination as? readBookViewController{
+                des.BookTitle = row["bookTitle"]
+                des.BookUrl = row["bookUrl"]
+            }
+        }
+    }
+    
     
     @IBAction func navigatateToTheSecondScene(sender: UIStoryboardSegue)
     {
