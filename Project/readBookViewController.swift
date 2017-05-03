@@ -35,7 +35,9 @@ class readBookViewController: UIViewController {
             webViewBook.loadRequest(req as URLRequest)
         }
 
+        //let nav : UINavigationController = UINavigationController(rootViewController: self.storyboard!.instantiateViewController(withIdentifier: "SecondViewController") as UIViewController)
         
+        //self.navigationController?.present(nav, animated: true, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {

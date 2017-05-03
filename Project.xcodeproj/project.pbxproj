@@ -9,29 +9,7 @@
 /* Begin PBXBuildFile section */
 		1F03CC5C1EAE1F6A00DB280B /* readBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F03CC5B1EAE1F6A00DB280B /* readBookViewController.swift */; };
 		1F07454B1EAC53C700989FF6 /* CSVParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F07454A1EAC53C700989FF6 /* CSVParser.swift */; };
-		1F55BC051EAEE690008D6371 /* database_free.csv in Resources */ = {isa = PBXBuildFile; fileRef = 1F55BC031EAEE690008D6371 /* database_free.csv */; };
-		1F55BC061EAEE690008D6371 /* database_paid.csv in Resources */ = {isa = PBXBuildFile; fileRef = 1F55BC041EAEE690008D6371 /* database_paid.csv */; };
-		1F55BC161EAF0E77008D6371 /* book-1_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1F55BC0B1EAF0E77008D6371 /* book-1_1.pdf */; };
-		1F55BC171EAF0E77008D6371 /* book-2_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1F55BC0C1EAF0E77008D6371 /* book-2_1.pdf */; };
-		1F55BC181EAF0E77008D6371 /* book-3_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1F55BC0D1EAF0E77008D6371 /* book-3_1.pdf */; };
-		1F55BC191EAF0E77008D6371 /* book-4_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1F55BC0E1EAF0E77008D6371 /* book-4_1.pdf */; };
-		1F55BC1A1EAF0E77008D6371 /* book-5_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1F55BC0F1EAF0E77008D6371 /* book-5_1.pdf */; };
-		1F55BC1B1EAF0E77008D6371 /* book-6_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1F55BC101EAF0E77008D6371 /* book-6_1.pdf */; };
-		1F55BC1C1EAF0E77008D6371 /* book-7_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1F55BC111EAF0E77008D6371 /* book-7_1.pdf */; };
-		1F55BC1D1EAF0E77008D6371 /* book-7_2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1F55BC121EAF0E77008D6371 /* book-7_2.pdf */; };
-		1F55BC1E1EAF0E77008D6371 /* book-8_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1F55BC131EAF0E77008D6371 /* book-8_1.pdf */; };
-		1F55BC1F1EAF0E77008D6371 /* book-9_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1F55BC141EAF0E77008D6371 /* book-9_1.pdf */; };
-		1F55BC201EAF0E77008D6371 /* book-10_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1F55BC151EAF0E77008D6371 /* book-10_1.pdf */; };
-		1F55BC291EAF0E95008D6371 /* book-3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1F55BC211EAF0E95008D6371 /* book-3.pdf */; };
-		1F55BC2A1EAF0E95008D6371 /* book-4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1F55BC221EAF0E95008D6371 /* book-4.pdf */; };
-		1F55BC2B1EAF0E95008D6371 /* book-5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1F55BC231EAF0E95008D6371 /* book-5.pdf */; };
-		1F55BC2C1EAF0E95008D6371 /* book-6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1F55BC241EAF0E95008D6371 /* book-6.pdf */; };
-		1F55BC2D1EAF0E95008D6371 /* book-7.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1F55BC251EAF0E95008D6371 /* book-7.pdf */; };
-		1F55BC2E1EAF0E95008D6371 /* book-8.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1F55BC261EAF0E95008D6371 /* book-8.pdf */; };
-		1F55BC2F1EAF0E95008D6371 /* book-9.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1F55BC271EAF0E95008D6371 /* book-9.pdf */; };
-		1F55BC301EAF0E95008D6371 /* book-10.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1F55BC281EAF0E95008D6371 /* book-10.pdf */; };
-		1F55BC331EAF1038008D6371 /* book-2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1F55BC311EAF1038008D6371 /* book-2.pdf */; };
-		1F55BC341EAF1038008D6371 /* book-1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1F55BC321EAF1038008D6371 /* book-1.pdf */; };
+		1F55E9AC1EB579680042D5DB /* datafiles in Resources */ = {isa = PBXBuildFile; fileRef = 1F55E9AB1EB579680042D5DB /* datafiles */; };
 		5D21006D1E8F6899007F47F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D21006C1E8F6899007F47F9 /* AppDelegate.swift */; };
 		5D21006F1E8F6899007F47F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D21006E1E8F6899007F47F9 /* ViewController.swift */; };
 		5D2100721E8F6899007F47F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2100701E8F6899007F47F9 /* Main.storyboard */; };
@@ -64,29 +42,7 @@
 /* Begin PBXFileReference section */
 		1F03CC5B1EAE1F6A00DB280B /* readBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = readBookViewController.swift; sourceTree = "<group>"; };
 		1F07454A1EAC53C700989FF6 /* CSVParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVParser.swift; sourceTree = "<group>"; };
-		1F55BC031EAEE690008D6371 /* database_free.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = database_free.csv; sourceTree = "<group>"; };
-		1F55BC041EAEE690008D6371 /* database_paid.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = database_paid.csv; sourceTree = "<group>"; };
-		1F55BC0B1EAF0E77008D6371 /* book-1_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "book-1_1.pdf"; sourceTree = "<group>"; };
-		1F55BC0C1EAF0E77008D6371 /* book-2_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "book-2_1.pdf"; sourceTree = "<group>"; };
-		1F55BC0D1EAF0E77008D6371 /* book-3_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "book-3_1.pdf"; sourceTree = "<group>"; };
-		1F55BC0E1EAF0E77008D6371 /* book-4_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "book-4_1.pdf"; sourceTree = "<group>"; };
-		1F55BC0F1EAF0E77008D6371 /* book-5_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "book-5_1.pdf"; sourceTree = "<group>"; };
-		1F55BC101EAF0E77008D6371 /* book-6_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "book-6_1.pdf"; sourceTree = "<group>"; };
-		1F55BC111EAF0E77008D6371 /* book-7_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "book-7_1.pdf"; sourceTree = "<group>"; };
-		1F55BC121EAF0E77008D6371 /* book-7_2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "book-7_2.pdf"; sourceTree = "<group>"; };
-		1F55BC131EAF0E77008D6371 /* book-8_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "book-8_1.pdf"; sourceTree = "<group>"; };
-		1F55BC141EAF0E77008D6371 /* book-9_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "book-9_1.pdf"; sourceTree = "<group>"; };
-		1F55BC151EAF0E77008D6371 /* book-10_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "book-10_1.pdf"; sourceTree = "<group>"; };
-		1F55BC211EAF0E95008D6371 /* book-3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "book-3.pdf"; sourceTree = "<group>"; };
-		1F55BC221EAF0E95008D6371 /* book-4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "book-4.pdf"; sourceTree = "<group>"; };
-		1F55BC231EAF0E95008D6371 /* book-5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "book-5.pdf"; sourceTree = "<group>"; };
-		1F55BC241EAF0E95008D6371 /* book-6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "book-6.pdf"; sourceTree = "<group>"; };
-		1F55BC251EAF0E95008D6371 /* book-7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "book-7.pdf"; sourceTree = "<group>"; };
-		1F55BC261EAF0E95008D6371 /* book-8.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "book-8.pdf"; sourceTree = "<group>"; };
-		1F55BC271EAF0E95008D6371 /* book-9.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "book-9.pdf"; sourceTree = "<group>"; };
-		1F55BC281EAF0E95008D6371 /* book-10.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "book-10.pdf"; sourceTree = "<group>"; };
-		1F55BC311EAF1038008D6371 /* book-2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "book-2.pdf"; sourceTree = "<group>"; };
-		1F55BC321EAF1038008D6371 /* book-1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "book-1.pdf"; sourceTree = "<group>"; };
+		1F55E9AB1EB579680042D5DB /* datafiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = datafiles; sourceTree = "<group>"; };
 		5D2100691E8F6899007F47F9 /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D21006C1E8F6899007F47F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D21006E1E8F6899007F47F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -130,52 +86,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F55BC001EAEE59B008D6371 /* datafiles */ = {
-			isa = PBXGroup;
-			children = (
-				1F55BC031EAEE690008D6371 /* database_free.csv */,
-				1F55BC041EAEE690008D6371 /* database_paid.csv */,
-				1F55BC011EAEE59B008D6371 /* free */,
-				1F55BC021EAEE59B008D6371 /* paid */,
-			);
-			path = datafiles;
-			sourceTree = "<group>";
-		};
-		1F55BC011EAEE59B008D6371 /* free */ = {
-			isa = PBXGroup;
-			children = (
-				1F55BC311EAF1038008D6371 /* book-2.pdf */,
-				1F55BC321EAF1038008D6371 /* book-1.pdf */,
-				1F55BC211EAF0E95008D6371 /* book-3.pdf */,
-				1F55BC221EAF0E95008D6371 /* book-4.pdf */,
-				1F55BC231EAF0E95008D6371 /* book-5.pdf */,
-				1F55BC241EAF0E95008D6371 /* book-6.pdf */,
-				1F55BC251EAF0E95008D6371 /* book-7.pdf */,
-				1F55BC261EAF0E95008D6371 /* book-8.pdf */,
-				1F55BC271EAF0E95008D6371 /* book-9.pdf */,
-				1F55BC281EAF0E95008D6371 /* book-10.pdf */,
-			);
-			path = free;
-			sourceTree = "<group>";
-		};
-		1F55BC021EAEE59B008D6371 /* paid */ = {
-			isa = PBXGroup;
-			children = (
-				1F55BC0B1EAF0E77008D6371 /* book-1_1.pdf */,
-				1F55BC0C1EAF0E77008D6371 /* book-2_1.pdf */,
-				1F55BC0D1EAF0E77008D6371 /* book-3_1.pdf */,
-				1F55BC0E1EAF0E77008D6371 /* book-4_1.pdf */,
-				1F55BC0F1EAF0E77008D6371 /* book-5_1.pdf */,
-				1F55BC101EAF0E77008D6371 /* book-6_1.pdf */,
-				1F55BC111EAF0E77008D6371 /* book-7_1.pdf */,
-				1F55BC121EAF0E77008D6371 /* book-7_2.pdf */,
-				1F55BC131EAF0E77008D6371 /* book-8_1.pdf */,
-				1F55BC141EAF0E77008D6371 /* book-9_1.pdf */,
-				1F55BC151EAF0E77008D6371 /* book-10_1.pdf */,
-			);
-			path = paid;
-			sourceTree = "<group>";
-		};
 		5D2100601E8F6899007F47F9 = {
 			isa = PBXGroup;
 			children = (
@@ -199,7 +109,7 @@
 		5D21006B1E8F6899007F47F9 /* Project */ = {
 			isa = PBXGroup;
 			children = (
-				1F55BC001EAEE59B008D6371 /* datafiles */,
+				1F55E9AB1EB579680042D5DB /* datafiles */,
 				5D21006C1E8F6899007F47F9 /* AppDelegate.swift */,
 				5D21006E1E8F6899007F47F9 /* ViewController.swift */,
 				5DCB05D51E975FF90007D8A8 /* SecondViewController.swift */,
@@ -340,32 +250,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F55BC2B1EAF0E95008D6371 /* book-5.pdf in Resources */,
-				1F55BC201EAF0E77008D6371 /* book-10_1.pdf in Resources */,
-				1F55BC1C1EAF0E77008D6371 /* book-7_1.pdf in Resources */,
-				1F55BC341EAF1038008D6371 /* book-1.pdf in Resources */,
-				1F55BC2E1EAF0E95008D6371 /* book-8.pdf in Resources */,
-				1F55BC2C1EAF0E95008D6371 /* book-6.pdf in Resources */,
-				1F55BC331EAF1038008D6371 /* book-2.pdf in Resources */,
-				1F55BC2F1EAF0E95008D6371 /* book-9.pdf in Resources */,
-				1F55BC061EAEE690008D6371 /* database_paid.csv in Resources */,
-				1F55BC2A1EAF0E95008D6371 /* book-4.pdf in Resources */,
-				1F55BC291EAF0E95008D6371 /* book-3.pdf in Resources */,
-				1F55BC1D1EAF0E77008D6371 /* book-7_2.pdf in Resources */,
 				5D2100771E8F6899007F47F9 /* LaunchScreen.storyboard in Resources */,
-				1F55BC191EAF0E77008D6371 /* book-4_1.pdf in Resources */,
-				1F55BC161EAF0E77008D6371 /* book-1_1.pdf in Resources */,
-				1F55BC1B1EAF0E77008D6371 /* book-6_1.pdf in Resources */,
-				1F55BC171EAF0E77008D6371 /* book-2_1.pdf in Resources */,
-				1F55BC301EAF0E95008D6371 /* book-10.pdf in Resources */,
 				5D2100741E8F6899007F47F9 /* Assets.xcassets in Resources */,
-				1F55BC2D1EAF0E95008D6371 /* book-7.pdf in Resources */,
-				1F55BC1E1EAF0E77008D6371 /* book-8_1.pdf in Resources */,
-				1F55BC1F1EAF0E77008D6371 /* book-9_1.pdf in Resources */,
-				1F55BC1A1EAF0E77008D6371 /* book-5_1.pdf in Resources */,
-				1F55BC051EAEE690008D6371 /* database_free.csv in Resources */,
+				1F55E9AC1EB579680042D5DB /* datafiles in Resources */,
 				5D2100721E8F6899007F47F9 /* Main.storyboard in Resources */,
-				1F55BC181EAF0E77008D6371 /* book-3_1.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

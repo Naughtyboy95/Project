@@ -1,10 +1,20 @@
-1,a,book-1,free/1/cover1.png
-2,b,book-2,free/2/cover2.png
-3,c,book-3,free/2/cover2.png
-4,d,book-4,free/2/cover2.png
-5,e,book-5,free/2/cover2.png
-6,f,book-6,free/2/cover2.png
-7,g,book-7,free/2/cover2.png
-8,h,book-8,free/2/cover2.png
-9,i,book-9,free/2/cover2.png
-10,g,book-10,free/2/cover2.png
+1,Friends Forever,datafiles/free/book-1,datafiles/free/cover1
+2,A Chrismas Ave Love,datafiles/free/book-2,datafiles/free/cover2
+3,A Reason To Rain,datafiles/free/book-3,datafiles/free/cover3
+4,Corpse in the Kitchen,datafiles/free/book-4,datafiles/free/cover4
+5,I Remember,datafiles/free/book-5,datafiles/free/cover5
+6,Shame,datafiles/free/book-6,datafiles/free/cover6
+7,Fun with Dick & Jane,datafiles/free/book-7,datafiles/free/cover7
+8,My Only Son,datafiles/free/book-8,datafiles/free/cover8
+9,Bella's Diary,datafiles/free/book-9,datafiles/free/cover9
+10,A Fractured Fairy Tale,datafiles/free/book-10,datafiles/free/cover10
+11,A Reason to live,datafiles/free/book-11,datafiles/free/cover11
+12,ESC and ENTER,datafiles/free/book-12,datafiles/free/cover12
+13,His Pregnant Neighbor,datafiles/free/book-13,datafiles/free/cover13
+14,Full Moon,datafiles/free/book-14,datafiles/free/cover14
+15,I Deserve,datafiles/free/book-15,datafiles/free/cover15
+16,THE RED SLED,datafiles/free/book-16,datafiles/free/cover16
+17,Sad Story,datafiles/free/book-17,datafiles/free/cover17
+18,Warhorse,datafiles/free/book-18,datafiles/free/cover18
+19,My Best Friend,datafiles/free/book-19,datafiles/free/cover19
+20,Waves,datafiles/free/book-20,datafiles/free/cover20
