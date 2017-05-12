@@ -19,6 +19,18 @@
 		5D21008D1E8F6899007F47F9 /* ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D21008C1E8F6899007F47F9 /* ProjectUITests.swift */; };
 		5D43108D1E965D8C00FD26CC /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D43108C1E965D8C00FD26CC /* ThirdViewController.swift */; };
 		5D43108F1E965D9900FD26CC /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D43108E1E965D9900FD26CC /* FourthViewController.swift */; };
+		5DBAAF431EC5A8AF00575D6F /* Daniel Powter-Bad Day (lyrics).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DBAAF391EC5A8AF00575D6F /* Daniel Powter-Bad Day (lyrics).mp3 */; };
+		5DBAAF441EC5A8AF00575D6F /* Michael Learns To Rock - That's Why.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DBAAF3A1EC5A8AF00575D6F /* Michael Learns To Rock - That's Why.mp3 */; };
+		5DBAAF451EC5A8AF00575D6F /* Michael learns to rock-take me to your heart h264 68782.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DBAAF3B1EC5A8AF00575D6F /* Michael learns to rock-take me to your heart h264 68782.mp3 */; };
+		5DBAAF461EC5A8AF00575D6F /* Sarah Connor - From Sarah With Love - LIVE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DBAAF3C1EC5A8AF00575D6F /* Sarah Connor - From Sarah With Love - LIVE.mp3 */; };
+		5DBAAF471EC5A8AF00575D6F /* THE DAY YOU WENT AWAY - WENDY MATTHEWS.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DBAAF3D1EC5A8AF00575D6F /* THE DAY YOU WENT AWAY - WENDY MATTHEWS.mp3 */; };
+		5DBAAF481EC5A8AF00575D6F /* Timbaland - Apologize ft. OneRepublic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DBAAF3E1EC5A8AF00575D6F /* Timbaland - Apologize ft. OneRepublic.mp3 */; };
+		5DBAAF491EC5A8AF00575D6F /* Until you by Shayne Ward.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DBAAF3F1EC5A8AF00575D6F /* Until you by Shayne Ward.mp3 */; };
+		5DBAAF4A1EC5A8AF00575D6F /* Westlife - I Have a Dream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DBAAF401EC5A8AF00575D6F /* Westlife - I Have a Dream.mp3 */; };
+		5DBAAF4B1EC5A8AF00575D6F /* Westlife - Seasons In The Sun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DBAAF411EC5A8AF00575D6F /* Westlife - Seasons In The Sun.mp3 */; };
+		5DBAAF4C1EC5A8AF00575D6F /* Westlife - Soledad (Original).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DBAAF421EC5A8AF00575D6F /* Westlife - Soledad (Original).mp3 */; };
+		5DBAAF4E1EC5A93700575D6F /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBAAF4D1EC5A93700575D6F /* SixthViewController.swift */; };
+		5DBAAF501EC5B7D500575D6F /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DBAAF4F1EC5B7D500575D6F /* 1.jpg */; };
 		5DCB05D61E975FF90007D8A8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCB05D51E975FF90007D8A8 /* SecondViewController.swift */; };
 		5DD4C1BA1EC59D54008003AF /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD4C1B91EC59D54008003AF /* MessageUI.framework */; };
 		5DDB4F8E1EC2E6FE00B87058 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDB4F8D1EC2E6FE00B87058 /* FifthViewController.swift */; };
@@ -60,6 +72,18 @@
 		5D21008E1E8F6899007F47F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D43108C1E965D8C00FD26CC /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		5D43108E1E965D9900FD26CC /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		5DBAAF391EC5A8AF00575D6F /* Daniel Powter-Bad Day (lyrics).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Daniel Powter-Bad Day (lyrics).mp3"; sourceTree = "<group>"; };
+		5DBAAF3A1EC5A8AF00575D6F /* Michael Learns To Rock - That's Why.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Michael Learns To Rock - That's Why.mp3"; sourceTree = "<group>"; };
+		5DBAAF3B1EC5A8AF00575D6F /* Michael learns to rock-take me to your heart h264 68782.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Michael learns to rock-take me to your heart h264 68782.mp3"; sourceTree = "<group>"; };
+		5DBAAF3C1EC5A8AF00575D6F /* Sarah Connor - From Sarah With Love - LIVE.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sarah Connor - From Sarah With Love - LIVE.mp3"; sourceTree = "<group>"; };
+		5DBAAF3D1EC5A8AF00575D6F /* THE DAY YOU WENT AWAY - WENDY MATTHEWS.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "THE DAY YOU WENT AWAY - WENDY MATTHEWS.mp3"; sourceTree = "<group>"; };
+		5DBAAF3E1EC5A8AF00575D6F /* Timbaland - Apologize ft. OneRepublic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Timbaland - Apologize ft. OneRepublic.mp3"; sourceTree = "<group>"; };
+		5DBAAF3F1EC5A8AF00575D6F /* Until you by Shayne Ward.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Until you by Shayne Ward.mp3"; sourceTree = "<group>"; };
+		5DBAAF401EC5A8AF00575D6F /* Westlife - I Have a Dream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Westlife - I Have a Dream.mp3"; sourceTree = "<group>"; };
+		5DBAAF411EC5A8AF00575D6F /* Westlife - Seasons In The Sun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Westlife - Seasons In The Sun.mp3"; sourceTree = "<group>"; };
+		5DBAAF421EC5A8AF00575D6F /* Westlife - Soledad (Original).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Westlife - Soledad (Original).mp3"; sourceTree = "<group>"; };
+		5DBAAF4D1EC5A93700575D6F /* SixthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
+		5DBAAF4F1EC5B7D500575D6F /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		5DCB05D51E975FF90007D8A8 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
 		5DD4C1B91EC59D54008003AF /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		5DDB4F8D1EC2E6FE00B87058 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
@@ -125,9 +149,12 @@
 				5D2100731E8F6899007F47F9 /* Assets.xcassets */,
 				5D2100751E8F6899007F47F9 /* LaunchScreen.storyboard */,
 				5D2100781E8F6899007F47F9 /* Info.plist */,
+				5DBAAF4F1EC5B7D500575D6F /* 1.jpg */,
+				5DBAAF381EC5A8AF00575D6F /* Song */,
 				1F07454A1EAC53C700989FF6 /* CSVParser.swift */,
 				1F03CC5B1EAE1F6A00DB280B /* readBookViewController.swift */,
 				5DDB4F8D1EC2E6FE00B87058 /* FifthViewController.swift */,
+				5DBAAF4D1EC5A93700575D6F /* SixthViewController.swift */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -148,6 +175,23 @@
 				5D21008E1E8F6899007F47F9 /* Info.plist */,
 			);
 			path = ProjectUITests;
+			sourceTree = "<group>";
+		};
+		5DBAAF381EC5A8AF00575D6F /* Song */ = {
+			isa = PBXGroup;
+			children = (
+				5DBAAF391EC5A8AF00575D6F /* Daniel Powter-Bad Day (lyrics).mp3 */,
+				5DBAAF3A1EC5A8AF00575D6F /* Michael Learns To Rock - That's Why.mp3 */,
+				5DBAAF3B1EC5A8AF00575D6F /* Michael learns to rock-take me to your heart h264 68782.mp3 */,
+				5DBAAF3C1EC5A8AF00575D6F /* Sarah Connor - From Sarah With Love - LIVE.mp3 */,
+				5DBAAF3D1EC5A8AF00575D6F /* THE DAY YOU WENT AWAY - WENDY MATTHEWS.mp3 */,
+				5DBAAF3E1EC5A8AF00575D6F /* Timbaland - Apologize ft. OneRepublic.mp3 */,
+				5DBAAF3F1EC5A8AF00575D6F /* Until you by Shayne Ward.mp3 */,
+				5DBAAF401EC5A8AF00575D6F /* Westlife - I Have a Dream.mp3 */,
+				5DBAAF411EC5A8AF00575D6F /* Westlife - Seasons In The Sun.mp3 */,
+				5DBAAF421EC5A8AF00575D6F /* Westlife - Soledad (Original).mp3 */,
+			);
+			path = Song;
 			sourceTree = "<group>";
 		};
 		5DD4C1B81EC59D53008003AF /* Frameworks */ = {
@@ -266,9 +310,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D2100771E8F6899007F47F9 /* LaunchScreen.storyboard in Resources */,
+				5DBAAF461EC5A8AF00575D6F /* Sarah Connor - From Sarah With Love - LIVE.mp3 in Resources */,
+				5DBAAF4A1EC5A8AF00575D6F /* Westlife - I Have a Dream.mp3 in Resources */,
 				5D2100741E8F6899007F47F9 /* Assets.xcassets in Resources */,
+				5DBAAF471EC5A8AF00575D6F /* THE DAY YOU WENT AWAY - WENDY MATTHEWS.mp3 in Resources */,
+				5DBAAF4C1EC5A8AF00575D6F /* Westlife - Soledad (Original).mp3 in Resources */,
 				1F55E9AC1EB579680042D5DB /* datafiles in Resources */,
+				5DBAAF451EC5A8AF00575D6F /* Michael learns to rock-take me to your heart h264 68782.mp3 in Resources */,
+				5DBAAF441EC5A8AF00575D6F /* Michael Learns To Rock - That's Why.mp3 in Resources */,
+				5DBAAF501EC5B7D500575D6F /* 1.jpg in Resources */,
+				5DBAAF431EC5A8AF00575D6F /* Daniel Powter-Bad Day (lyrics).mp3 in Resources */,
+				5DBAAF481EC5A8AF00575D6F /* Timbaland - Apologize ft. OneRepublic.mp3 in Resources */,
+				5DBAAF491EC5A8AF00575D6F /* Until you by Shayne Ward.mp3 in Resources */,
 				5D2100721E8F6899007F47F9 /* Main.storyboard in Resources */,
+				5DBAAF4B1EC5A8AF00575D6F /* Westlife - Seasons In The Sun.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D21006F1E8F6899007F47F9 /* ViewController.swift in Sources */,
+				5DBAAF4E1EC5A93700575D6F /* SixthViewController.swift in Sources */,
 				5D43108D1E965D8C00FD26CC /* ThirdViewController.swift in Sources */,
 				5D21006D1E8F6899007F47F9 /* AppDelegate.swift in Sources */,
 				5DCB05D61E975FF90007D8A8 /* SecondViewController.swift in Sources */,

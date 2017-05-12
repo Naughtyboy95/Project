@@ -22,16 +22,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOc-6A-Brl">
-                                <rect key="frame" x="125" y="101" width="70" height="30"/>
+                                <rect key="frame" x="113" y="101" width="87" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.22284955400000001" green="0.4096211656" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" title="Free Book"/>
                                 <connections>
                                     <segue destination="F6w-CE-lsq" kind="unwind" unwindAction="navigatateToTheSecondSceneWithSender:" id="KPw-5G-ikw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7IX-Wx-iqj">
-                                <rect key="frame" x="129" y="267" width="55" height="30"/>
+                                <rect key="frame" x="113" y="267" width="87" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.22284955400000001" green="0.4096211656" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" title="Contact"/>
                                 <connections>
                                     <action selector="ContactButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T7i-Sy-Hka"/>
@@ -39,11 +43,23 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPl-oV-wv0">
-                                <rect key="frame" x="122" y="170" width="69" height="30"/>
+                                <rect key="frame" x="113" y="156" width="87" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.22284955400000001" green="0.4096211656" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" title="Paid Book"/>
                                 <connections>
                                     <segue destination="Tt4-Bl-CxN" kind="show" id="VOJ-7j-vzz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pKc-BL-yJp">
+                                <rect key="frame" x="113" y="209" width="87" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.22284955400000001" green="0.4096211656" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Music Player"/>
+                                <connections>
+                                    <segue destination="F6w-CE-lsq" kind="unwind" unwindAction="navigateToTheFourthSceneWithSender:" id="sU5-m3-6vC"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -57,7 +73,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <exit id="F6w-CE-lsq" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-1382" y="-2260"/>
+            <point key="canvasLocation" x="-999.375" y="-2665"/>
         </scene>
         <!--Fifth View Controller-->
         <scene sceneID="39H-SE-rVX">
@@ -81,6 +97,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nJ8-us-NG3">
                                 <rect key="frame" x="128" y="179" width="64" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.22284955400000001" green="0.4096211656" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" title="Login"/>
                                 <connections>
                                     <action selector="CheckUser:" destination="Tt4-Bl-CxN" eventType="touchUpInside" id="CFa-WK-8eP"/>
@@ -105,7 +123,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nr8-1Z-UGU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-660" y="-2763.75"/>
+            <point key="canvasLocation" x="-83" y="-2741"/>
         </scene>
         <!--Free book-->
         <scene sceneID="rWj-Yr-Sq1">
@@ -199,6 +217,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rgw-X9-l1V">
                                 <rect key="frame" x="143" y="380" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.22284955400000001" green="0.4096211656" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="gHL-LH-UdS"/>
@@ -279,6 +299,132 @@
             </objects>
             <point key="canvasLocation" x="840" y="-1943"/>
         </scene>
+        <!--List of song-->
+        <scene sceneID="9bz-ty-vHL">
+            <objects>
+                <viewController id="4wO-h8-q8A" customClass="FourthViewController" customModule="Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RWi-yc-kjD"/>
+                        <viewControllerLayoutGuide type="bottom" id="Jqr-3i-zK5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hNw-Kl-8SU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dbQ-Ly-VER">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier=" cell" id="5fU-cC-Jm1">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5fU-cC-Jm1" id="shj-bK-93J">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="4wO-h8-q8A" id="liW-TN-Eap"/>
+                                    <outlet property="delegate" destination="4wO-h8-q8A" id="uZ8-lZ-i5o"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="List of song" id="Alf-VN-xl7"/>
+                    <connections>
+                        <outlet property="myTableView" destination="dbQ-Ly-VER" id="fns-A3-bvU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KpQ-Pb-L9P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3230.625" y="-2995"/>
+        </scene>
+        <!--Control Music-->
+        <scene sceneID="4hp-Gn-EZE">
+            <objects>
+                <viewController id="Fmy-PK-J6p" customClass="SixthViewController" customModule="Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GOJ-EV-iEw"/>
+                        <viewControllerLayoutGuide type="bottom" id="I9k-vR-6P3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="u5V-Cg-BqA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p71-4l-60d">
+                                <rect key="frame" x="16" y="28" width="288" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="JsI-F5-dhM">
+                                <rect key="frame" x="16" y="57" width="288" height="262"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zs1-ZD-AzI">
+                                <rect key="frame" x="16" y="327" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.22284955400000001" green="0.4096211656" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="PLAY"/>
+                                <connections>
+                                    <action selector="play:" destination="Fmy-PK-J6p" eventType="touchUpInside" id="SqY-7L-Ii0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SFu-lh-Ci0">
+                                <rect key="frame" x="236" y="327" width="68" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.22284955400000001" green="0.4096211656" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="PAUSE"/>
+                                <connections>
+                                    <action selector="pause:" destination="Fmy-PK-J6p" eventType="touchUpInside" id="6CD-Io-tZK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MW6-oK-5YO">
+                                <rect key="frame" x="16" y="365" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.22284955400000001" green="0.4096211656" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="PREV"/>
+                                <connections>
+                                    <action selector="prev:" destination="Fmy-PK-J6p" eventType="touchUpInside" id="jGl-cA-aW7"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Nhp-Ww-BZ3">
+                                <rect key="frame" x="14" y="393" width="292" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="slider:" destination="Fmy-PK-J6p" eventType="valueChanged" id="iED-Dw-JnY"/>
+                                </connections>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tkg-eS-aqm">
+                                <rect key="frame" x="236" y="365" width="68" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.22284955400000001" green="0.4096211656" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="NEXT"/>
+                                <connections>
+                                    <action selector="next:" destination="Fmy-PK-J6p" eventType="touchUpInside" id="nhV-Ri-Y6K"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Control Music" id="qSJ-BR-o96"/>
+                    <connections>
+                        <outlet property="label" destination="p71-4l-60d" id="KNI-ET-CvM"/>
+                        <outlet property="myImageView" destination="JsI-F5-dhM" id="mhp-ji-WSh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HRE-Dd-boF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2394.375" y="-2995"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="ebp-XO-KB6">
             <objects>
@@ -292,6 +438,8 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="fce-N6-Yd7"/>
                         <segue destination="xsk-Ww-vKe" kind="relationship" relationship="viewControllers" id="miM-iL-7sU"/>
+                        <segue destination="4wO-h8-q8A" kind="relationship" relationship="viewControllers" id="tww-rZ-QwF"/>
+                        <segue destination="Fmy-PK-J6p" kind="relationship" relationship="viewControllers" id="y8q-0s-Icn"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CWd-d4-TlL" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -331,11 +479,14 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ecu-A8-fTQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-428" y="-2004"/>
+            <point key="canvasLocation" x="178" y="-1968"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="1.jpg" width="300" height="168"/>
+    </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="fce-N6-Yd7"/>
+        <segue reference="gHL-LH-UdS"/>
         <segue reference="fTA-pV-Qoz"/>
     </inferredMetricsTieBreakers>
 </document>
