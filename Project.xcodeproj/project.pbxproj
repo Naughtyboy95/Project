@@ -20,6 +20,8 @@
 		5D43108D1E965D8C00FD26CC /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D43108C1E965D8C00FD26CC /* ThirdViewController.swift */; };
 		5D43108F1E965D9900FD26CC /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D43108E1E965D9900FD26CC /* FourthViewController.swift */; };
 		5DCB05D61E975FF90007D8A8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCB05D51E975FF90007D8A8 /* SecondViewController.swift */; };
+		5DD4C1BA1EC59D54008003AF /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD4C1B91EC59D54008003AF /* MessageUI.framework */; };
+		5DDB4F8E1EC2E6FE00B87058 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDB4F8D1EC2E6FE00B87058 /* FifthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		5D43108C1E965D8C00FD26CC /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		5D43108E1E965D9900FD26CC /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		5DCB05D51E975FF90007D8A8 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
+		5DD4C1B91EC59D54008003AF /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		5DDB4F8D1EC2E6FE00B87058 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DD4C1BA1EC59D54008003AF /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +98,7 @@
 				5D2100801E8F6899007F47F9 /* ProjectTests */,
 				5D21008B1E8F6899007F47F9 /* ProjectUITests */,
 				5D21006A1E8F6899007F47F9 /* Products */,
+				5DD4C1B81EC59D53008003AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +127,7 @@
 				5D2100781E8F6899007F47F9 /* Info.plist */,
 				1F07454A1EAC53C700989FF6 /* CSVParser.swift */,
 				1F03CC5B1EAE1F6A00DB280B /* readBookViewController.swift */,
+				5DDB4F8D1EC2E6FE00B87058 /* FifthViewController.swift */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -141,6 +148,14 @@
 				5D21008E1E8F6899007F47F9 /* Info.plist */,
 			);
 			path = ProjectUITests;
+			sourceTree = "<group>";
+		};
+		5DD4C1B81EC59D53008003AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DD4C1B91EC59D54008003AF /* MessageUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +297,7 @@
 				5D43108D1E965D8C00FD26CC /* ThirdViewController.swift in Sources */,
 				5D21006D1E8F6899007F47F9 /* AppDelegate.swift in Sources */,
 				5DCB05D61E975FF90007D8A8 /* SecondViewController.swift in Sources */,
+				5DDB4F8E1EC2E6FE00B87058 /* FifthViewController.swift in Sources */,
 				5D43108F1E965D9900FD26CC /* FourthViewController.swift in Sources */,
 				1F03CC5C1EAE1F6A00DB280B /* readBookViewController.swift in Sources */,
 				1F07454B1EAC53C700989FF6 /* CSVParser.swift in Sources */,
