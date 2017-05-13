@@ -4,7 +4,7 @@
 //
 //  Created by DUC PHAM on 1/04/2017.
 //  Copyright © 2017 DUC PHAM. All rights reserved.
-//
+//reference for the code email function: https://www.youtube.com/watch?v=dsk-BDn6FCI
 
 import UIKit
 import MessageUI

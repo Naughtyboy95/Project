@@ -17,6 +17,7 @@
 		5D2100771E8F6899007F47F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2100751E8F6899007F47F9 /* LaunchScreen.storyboard */; };
 		5D2100821E8F6899007F47F9 /* ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2100811E8F6899007F47F9 /* ProjectTests.swift */; };
 		5D21008D1E8F6899007F47F9 /* ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D21008C1E8F6899007F47F9 /* ProjectUITests.swift */; };
+		5D33DB0E1EC6D613005FC8FB /* Blue - All Rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D33DB0D1EC6D613005FC8FB /* Blue - All Rise.mp3 */; };
 		5D43108D1E965D8C00FD26CC /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D43108C1E965D8C00FD26CC /* ThirdViewController.swift */; };
 		5D43108F1E965D9900FD26CC /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D43108E1E965D9900FD26CC /* FourthViewController.swift */; };
 		5DBAAF431EC5A8AF00575D6F /* Daniel Powter-Bad Day (lyrics).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DBAAF391EC5A8AF00575D6F /* Daniel Powter-Bad Day (lyrics).mp3 */; };
@@ -70,6 +71,7 @@
 		5D2100881E8F6899007F47F9 /* ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D21008C1E8F6899007F47F9 /* ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectUITests.swift; sourceTree = "<group>"; };
 		5D21008E1E8F6899007F47F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D33DB0D1EC6D613005FC8FB /* Blue - All Rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Blue - All Rise.mp3"; sourceTree = "<group>"; };
 		5D43108C1E965D8C00FD26CC /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		5D43108E1E965D9900FD26CC /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		5DBAAF391EC5A8AF00575D6F /* Daniel Powter-Bad Day (lyrics).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Daniel Powter-Bad Day (lyrics).mp3"; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 		5DBAAF381EC5A8AF00575D6F /* Song */ = {
 			isa = PBXGroup;
 			children = (
+				5D33DB0D1EC6D613005FC8FB /* Blue - All Rise.mp3 */,
 				5DBAAF391EC5A8AF00575D6F /* Daniel Powter-Bad Day (lyrics).mp3 */,
 				5DBAAF3A1EC5A8AF00575D6F /* Michael Learns To Rock - That's Why.mp3 */,
 				5DBAAF3B1EC5A8AF00575D6F /* Michael learns to rock-take me to your heart h264 68782.mp3 */,
@@ -311,6 +314,7 @@
 			files = (
 				5D2100771E8F6899007F47F9 /* LaunchScreen.storyboard in Resources */,
 				5DBAAF461EC5A8AF00575D6F /* Sarah Connor - From Sarah With Love - LIVE.mp3 in Resources */,
+				5D33DB0E1EC6D613005FC8FB /* Blue - All Rise.mp3 in Resources */,
 				5DBAAF4A1EC5A8AF00575D6F /* Westlife - I Have a Dream.mp3 in Resources */,
 				5D2100741E8F6899007F47F9 /* Assets.xcassets in Resources */,
 				5DBAAF471EC5A8AF00575D6F /* THE DAY YOU WENT AWAY - WENDY MATTHEWS.mp3 in Resources */,
