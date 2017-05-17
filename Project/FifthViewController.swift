@@ -10,11 +10,13 @@
 import UIKit
 
 class FifthViewController: UIViewController {
-    
+    //connect the textfield with viewcontroller to enable user type the username
     @IBOutlet weak var Username: UITextField!
+    //connect the textfield with viewcontroller to enable user type the password
     @IBOutlet weak var Password: UITextField!
-  
+    //declare the variable for the username
     let username : String = "Admin"
+    //declare the variable for the password
     let pass : String = "Admin"
     
     override func viewDidLoad() {
@@ -22,7 +24,7 @@ class FifthViewController: UIViewController {
 
     }
     
-
+    //check the username & password of user
     @IBAction func CheckUser(_ sender: Any) {
     if(Username.text == username &&  Password.text == pass)
     {

@@ -62,6 +62,16 @@
                                     <segue destination="F6w-CE-lsq" kind="unwind" unwindAction="navigateToTheFourthSceneWithSender:" id="sU5-m3-6vC"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vHI-gw-D90">
+                                <rect key="frame" x="113" y="316" width="87" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.22284955400000001" green="0.4096211656" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="Credit"/>
+                                <connections>
+                                    <segue destination="F6w-CE-lsq" kind="unwind" unwindAction="navigatateToTheFifthSceneWithSender:" id="ntN-Qk-sru"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -73,7 +83,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <exit id="F6w-CE-lsq" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-999.375" y="-2665"/>
+            <point key="canvasLocation" x="-1403" y="-2703"/>
         </scene>
         <!--Fifth View Controller-->
         <scene sceneID="39H-SE-rVX">
@@ -125,6 +135,98 @@
             </objects>
             <point key="canvasLocation" x="-83" y="-2741"/>
         </scene>
+        <!--Credit-->
+        <scene sceneID="dvE-g7-waF">
+            <objects>
+                <viewController id="vK9-MG-kmT" customClass="CreditViewController" customModule="Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Cf1-Lb-85Z"/>
+                        <viewControllerLayoutGuide type="bottom" id="xyQ-x5-UQR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ixw-fz-OqG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Credit Page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="46e-DU-7Dm">
+                                <rect key="frame" x="115" y="20" width="90" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Nzn-yp-xN6">
+                                <rect key="frame" x="16" y="49" width="288" height="374"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Book &amp; image references:
+1.Bhowmik A D, 2010, Friends Forever, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-aditi-das-bhowmik-friends-forever/#
+2.Blakc J C, 2010, A Chirstmas Eve Love, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-charlie-j-black-a-christmas-eve-love/
+3.Young M D, 2009, A Reason To Rain, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-donna-m-young-a-reason-to-rain/
+4.Reid J D, 2008, Corpse in the Kitchen, BookRix, Date retrieved 24 April 2017,https://www.bookrix.com/_ebook-d-j-reid-corpse-in-the-kitchen/
+5.Weiss L, 2011, I Remember, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-l-weiss-i-remember/
+6.Jennings Rebekah, 2010, Shame, BookRix, Date retrieved 24 April 2017,https://www.bookrix.com/_ebook-rebekah-jennings-copyright-shame/
+7.Rachin B, 2011, Fun with Dick and Jane, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-barry-rachin-fun-with-dick-and-jane/
+8. Riggs D, 2010, My Only Son, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-danee-riggs-my-only-son/
+9. M. R, 2010, Bellaís Diary, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-erica-m-bella-039-s-diary/ 
+10. Jiang E, 2011, A Fractured Fairy Tale, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-eleanor-jiang-a-fractured-fairy-tale/
+11. Silentaffections, 2009, A Reason to Live, BookRix, Date retrieved 24 April 2017,https://www.bookrix.com/_ebook-silentaffections-a-reason-to-live/
+12. Persson G, 2008, ESC and ENTER, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-greta-persson-esc-and-enter/
+13. Sam &amp; Holly, 2013, His Pregnant Neightbor, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-sam-holly-his-pregnant-neighbor/
+14. twilightlol, 2009, Full Moon, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-twilightlol-full-moon/
+15.Humphries K, 2010, I Deserve, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-kaitlin-humphries-i-deserve/
+16. Loving R, 2009, The Red Sled, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-robin-loving-quot-the-red-sled-quot/
+17. Melissa, 2011, Sad Story, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-melissa-sad-story/
+18. Jeske A, 2012, Warhorse, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-amanda-jeske-warhorse/
+19. Elaina, 2009, My Best Friend, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-elaina-my-best-friend/
+20.  Garib H, 2008, Waves, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-hadi-garib-waves/
+21. Stiller L, 2012, A Very Short Action Story, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-lauren-stiller-a-very-short-action-story/
+22. Elliott M, 2009, When It Rains, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-melissa-elliott-when-it-rains/
+23. Bjornson B, 2010, The Father, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-bj-rnstjerne-bj-rnson-the-father/
+24. Sam &amp; Holly, 2013, His Accidental Pregnancy, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-sam-holly-his-accidental-pregnancy/
+25. The Storyteller, 2011, In the Shadow, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-the-storyteller-in-the-shadow/
+26. Poe A E, 2011, The Tell-Tale Heart, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-edgar-allan-poe-the-tell-tale-heart-1/
+27. Hayford, 2010, The Hardy Boys A New Ending, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-jake-hayford-the-hardy-boys-a-new-ending/
+28. D.J. Reid, 2009, OíHaraís Hat, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-d-j-reid-o-039-hara-039-s-hat/
+29. Munro H H, 2008, The Toys of Peace, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-hector-hugh-munro-saki-the-toys-of-peace/
+30. :0, 2011, URBAN LEGENDS, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-o-urban-legends/
+31. Erica M, 2010,  Bellaís Diary, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-erica-m-bella-039-s-diary-1/
+32. Lucky 97, 2011, Trying To Romance A Girl In A Chicken Suit, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-lucky-97-trying-to-romance-a-girl-in-a-chicken-suit/
+33. Poe A E, 2008, The Works of Edgar Allan Poe, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-edgar-allan-poe-the-works-of-edgar-allan-poe-3/
+34. Jennings R, 2010, Hollywood Classics, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-rebekah-jennings-copyright-2010-hollywood-classics/
+35. Sir Arthur Conan Doyle, 2010, A Scandal in Bohemia, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-sir-arthur-conan-doyle-a-scandal-in-bohemia-1/
+36. Jennings R, 2010, Choking On Air, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-rebekah-jennings-copyright-2010-choking-on-air/
+37.  D.J Reid, 2009, Love You to Death, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-d-j-reid-love-you-to-death/
+38. Nightly J M, 2011, In Love With My Brother, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-meli-j-nightly-in-love-with-my-brother/
+39.  Wood R D, 2009, Lost at Sea, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-david-r-wood-lost-at-sea/
+40. Anne KD, 2010, One Cold Warm Night, BookRix, Date retrieved 24 April 2017, https://www.bookrix.com/_ebook-kd-anne-one-cold-warm-night/
+
+cherry image reference:
+Rojal, 2016, Cherry PNG Transparent Imgages, PNG ALL, date retrieved 17 April 2017, 
+http://www.pngall.com/cherry-png
+Music references:
+http://www.artistdirect.com/music/pop/877
+1.Adler n.d, Adler - Waterfall, artistdirect, date retrieved 15 May 2017
+,http://images.artistdirect.com/audio/music/adler/waterfall_acoustic.mp3
+2.Ingenue, Ingenue - You Were Mine, artistdirect, date retrieved 15 May 2017,
+http://images.artistdirect.com/audio/music/ingenue/youweremine.mp3
+3. The Endangered, The Endangered - Calling On You, artistdirect, date retrieved 15 May 2017,
+http://images.artistdirect.com/audio/music/the_endangered/calling_on_you.mp3
+4. Long-Reef, Long-Reef - Want Me Back, artistdirect, date retrieved 15 May 2017, 
+http://images.artistdirect.com/audio/music/longreef/Want_Me_Back.mp3
+
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Credit" id="8Ne-Dn-7FU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="krF-1B-Rfc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-738.75" y="-2730"/>
+        </scene>
         <!--Free book-->
         <scene sceneID="rWj-Yr-Sq1">
             <objects>
@@ -151,7 +253,7 @@
                                         <rect key="frame" x="0.0" y="72" width="320" height="129"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ruz-ux-pbi" id="jjF-hG-XfH">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="128.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="128"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OBL-Te-0z3">
@@ -262,7 +364,7 @@
                                         <rect key="frame" x="0.0" y="72" width="320" height="133"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NQO-zd-B4U" id="kCl-Ri-pxi">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="132.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="132"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aUh-G5-Dcd">
@@ -361,7 +463,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="JsI-F5-dhM">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cherry.png" translatesAutoresizingMaskIntoConstraints="NO" id="JsI-F5-dhM">
                                 <rect key="frame" x="16" y="57" width="288" height="262"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -440,6 +542,7 @@
                         <segue destination="xsk-Ww-vKe" kind="relationship" relationship="viewControllers" id="miM-iL-7sU"/>
                         <segue destination="4wO-h8-q8A" kind="relationship" relationship="viewControllers" id="tww-rZ-QwF"/>
                         <segue destination="Fmy-PK-J6p" kind="relationship" relationship="viewControllers" id="y8q-0s-Icn"/>
+                        <segue destination="vK9-MG-kmT" kind="relationship" relationship="viewControllers" id="WS8-S8-wOP"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CWd-d4-TlL" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -465,28 +568,12 @@
             </objects>
             <point key="canvasLocation" x="-2019.375" y="-1400"/>
         </scene>
-        <!--Paid Book-->
-        <scene sceneID="xTW-R6-MVn">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AOL-wJ-ICm" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Paid Book" id="9IN-mB-n50"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="63f-nQ-XDc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ecu-A8-fTQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="178" y="-1968"/>
-        </scene>
     </scenes>
     <resources>
-        <image name="1.jpg" width="300" height="168"/>
+        <image name="cherry.png" width="2000" height="2000"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="gHL-LH-UdS"/>
+        <segue reference="fce-N6-Yd7"/>
         <segue reference="fTA-pV-Qoz"/>
     </inferredMetricsTieBreakers>
 </document>

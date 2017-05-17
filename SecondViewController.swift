@@ -10,9 +10,10 @@ import UIKit
 
 class BookTableViewCell: UITableViewCell {
     
-    
+    //connect the imageview with the viewcontroller to display book covers
     @IBOutlet weak var BookCoverImage: UIImageView!
     
+    //connect the label with the view controller to display book titles
     @IBOutlet weak var BookTitle: UILabel!
     
 }
@@ -20,11 +21,12 @@ class BookTableViewCell: UITableViewCell {
 class SecondViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate  {
     var myCSVContents = Array<Dictionary<String, String>>()
     var filtered = Array<Dictionary<String, String>>()
-
+    // connect the table view with the viewcontroller to display the list of free books
     @IBOutlet weak var tableView: UITableView!
-    
+     //declare the identifier of each cell in the tableview
         let cellID = "CellID"
     var searchActive : Bool = false
+    //connect the search bar with the view controller to search books in the list
     @IBOutlet weak var searchResultController: UISearchBar!
     
 
@@ -177,7 +179,7 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
         }
     }
     
-    
+    //function to connect with another viewcontroller
     @IBAction func navigatateToTheSecondScene(sender: UIStoryboardSegue)
     {
         

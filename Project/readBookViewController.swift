@@ -9,8 +9,9 @@
 import UIKit
 
 class readBookViewController: UIViewController {
-
+    //declare the varible for booktitle
     var BookTitle: String?
+    //declare the variable for content of books
     var BookUrl: String?
     
     

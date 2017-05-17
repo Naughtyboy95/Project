@@ -15,7 +15,7 @@ var thisSong = 0
 var audio = false
 
 class FourthViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    
+    //connect the tableview with the viewcontroller to display the list of song
     @IBOutlet weak var myTableView: UITableView!
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
@@ -90,7 +90,7 @@ class FourthViewController: UIViewController, UITableViewDelegate, UITableViewDa
         }
         
     }
-    
+    //connect with another viewcontroller
     @IBAction func navigateToTheFourthScene(sender: UIStoryboardSegue)
     {
         

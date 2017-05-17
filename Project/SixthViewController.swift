@@ -10,8 +10,9 @@ import UIKit
 import AVFoundation
 
 class SixthViewController: UIViewController {
-
+    //connect the label with the viewcontroller to display the label of the song
     @IBOutlet weak var label: UILabel!
+    //connect the label with the viewcontroller to display the image in the music player
     @IBOutlet weak var myImageView: UIImageView!
     
    //Button to play music
@@ -36,7 +37,7 @@ class SixthViewController: UIViewController {
         }
     }
     
-    
+    //Button to previous the song
     @IBAction func prev(_ sender: Any)
     {
         if thisSong != 0 && audio == true
@@ -51,7 +52,7 @@ class SixthViewController: UIViewController {
         }
     }
     
-    
+    //Button to move to the next song
     @IBAction func next(_ sender: Any)
     {
         if thisSong < songs.count-1 && audio == true
@@ -66,7 +67,7 @@ class SixthViewController: UIViewController {
         }
     }
     
-    
+    //Slider control the volume 
     @IBAction func slider(_ sender: UISlider)
     {
        if audio == true

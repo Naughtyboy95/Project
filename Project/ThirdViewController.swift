@@ -10,17 +10,17 @@ import UIKit
 
 class BookTableViewCellPaid: UITableViewCell {
     
-    
+    //connect the imageview with the viewcontroller to display the book covers
     @IBOutlet weak var BookCoverImage: UIImageView!
     
-    
+    //connect the label with the viewcontroller to display the title of books
     @IBOutlet weak var BookTitle: UILabel!
 }
 
 class ThirdViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate {
-    
+    //connect the table view with the viewcontroller
     @IBOutlet weak var tableView: UITableView!
-    
+    //declare the identifier of each cell in the tableview
     let cellID = "CellID"
     
     var myCSVContents = Array<Dictionary<String, String>>()
@@ -43,7 +43,7 @@ class ThirdViewController: UIViewController, UITableViewDataSource, UITableViewD
         self.tableView.estimatedRowHeight = 50
         searchResultController.delegate = self
     }
-    
+    //connect the search bar with the view controller
     @IBOutlet weak var searchResultController: UISearchBar!
     func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
         searchActive = true;
